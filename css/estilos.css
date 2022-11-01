@@ -1,0 +1,187 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+header {
+    background: #423a3a;
+    height: 100px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+   font-size: 40px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+  }
+
+
+
+  
+h1 {
+    text-align: center;
+    min-height: 300px;
+}
+
+h4 {
+    margin: 10%;
+    text-align: center;
+    min-height: 200px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align-last:auto;
+}
+
+nav   {
+    width: 50%;
+    height: 30px;
+    background: #787373;
+    text-align: right;
+    float: right;
+    list-style: none;
+    margin: -5px 0;
+    padding: 0;
+    list-style-type: none;
+}
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    padding: 10px 10px;
+    display: inline-block;
+    color: rgb(242, 249, 249);
+    text-decoration: none;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+nav li a:hover{
+    background: #a45b5b;
+    color: aliceblue;
+}
+.inicio{
+    width: 100%;
+    padding: 40px;
+    
+   
+}
+
+.sucursales {
+    padding: 30px 0;
+    width: 100%;
+    display: grid;
+   grid-template-areas: 'suc suc suc'
+   'suc1 suc2 suc3';
+    border: 1px black;
+    align-content: center;
+    text-align: center;
+    grid-column: auto auto auto;
+}
+
+.descripcion {
+   width: min-content 800px;
+    color: #fdfcfc;
+    text-align: center;
+    text-overflow: ellipsis;
+    min-height: 300px;
+ max-width: 600px;
+}
+.clearfix{
+    clear: both;
+}
+
+footer {
+    background: black;
+    height: 40px;
+    width: 100%;
+    color: white;
+    text-align: center;
+  text-align-last:auto;
+
+}
+
+.inicio{
+    
+    background-size: 100%;
+
+    
+}
+.caja{
+    border: 2px solid black;
+    width: 400px;
+    height: 300px;
+    margin: 15px;
+
+}
+.suc{
+    grid-area: suc;
+   
+  font-size: 30px;
+}
+.suc1{
+    grid-area: suc1;
+    background-color: #5d1a1a;
+    
+}
+.suc2{
+    grid-area: suc2;
+    background-color: #a45b5b;
+}
+.suc3{
+    grid-area: suc3;
+    background-color: #694343;
+}
+.suc3 img{
+   margin: 10%;
+    width: auto;
+    display: block;
+
+}
+img.{
+    margin: auto;
+    width: auto;
+    display: block;
+}
+
+section {
+    padding: 30px 0;
+    background: url(comidafondo.jpg) rgb(206, 199, 199);
+    height: 500px;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+form{ 
+    width: 450px;
+    margin: auto;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+textarea{
+    min-height: 100px;
+    min-height: 200px;
+    max-width: 100%;
+
+}
+#boton{
+    background: #31384a;
+    color: #fff;
+    padding: 20px;
+}
+#boton:hover {
+    cursor: pointer;
+    background: #5d1a1a;
+}
