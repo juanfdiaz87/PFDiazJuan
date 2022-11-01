@@ -60,12 +60,6 @@ nav li a:hover{
     background: #a45b5b;
     color: aliceblue;
 }
-.inicio{
-    width: 100%;
-    padding: 40px;
-    
-   
-}
 
 .sucursales {
     padding: 30px 0;
@@ -101,12 +95,7 @@ footer {
 
 }
 
-.inicio{
-    
-    background-size: 100%;
 
-    
-}
 .caja{
     border: 2px solid black;
     width: 400px;
