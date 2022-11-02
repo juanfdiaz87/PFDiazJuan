@@ -203,16 +203,20 @@ textarea{
         margin: 0;
         list-style-type: none;
     }
-  
+    nav li a {
+        
+        padding: 0 0;  
+       font-size: 15px;
+    }
     .sucursales {
         
         float: center;
         width: 100%;
         display: grid;
-       grid-template-areas: 'suc suc suc'
-       'suc1 suc1 suc1'
-       'suc2 suc2 suc2'
-       'suc3 suc3 suc3';
+        grid-template-areas: 'suc suc suc'
+                             'suc1 suc1 suc1'
+                             'suc2 suc2 suc2'
+                             'suc3 suc3 suc3';
        
         grid-column: auto auto auto;
     }
@@ -230,7 +234,8 @@ textarea{
        }
 
     nav li a {
-           padding: 0 0;  
+        float:left;
+        padding: 0 0;  
        font-size: 15px;
     }
     header {
