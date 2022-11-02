@@ -16,12 +16,19 @@ header {
  
   }
 
+.textmenu{
+    
+   color: #fff;
+   background:  rgba(1, 1, 1, 0.5)
+}
 
-
-  
+.logo{ 
+    padding: 10px 10px;
+}
 h1 {
     text-align: center;
     min-height: 300px;
+    
 }
 
 h4 {
@@ -34,7 +41,7 @@ h4 {
 }
 
 nav   {
-    width: 50%;
+ width: auto;
     height: 30px;
     background: #787373;
     text-align: right;
@@ -50,7 +57,7 @@ nav li {
 
 nav li a {
     padding: 10px 10px;
-    display: inline-block;
+    display:block;
     color: rgb(242, 249, 249);
     text-decoration: none;
     font-size: 20px;
@@ -75,11 +82,13 @@ nav li a:hover{
 
 .descripcion {
    width: min-content 800px;
+   padding: 40px;
     color: #fdfcfc;
     text-align: center;
     text-overflow: ellipsis;
     min-height: 300px;
  max-width: 600px;
+ background:  rgba(1, 1, 1, 0.5);
 }
 .clearfix{
     clear: both;
@@ -105,29 +114,41 @@ footer {
 }
 .suc{
     grid-area: suc;
-   
+   color: #fff;
   font-size: 30px;
 }
 .suc1{
     grid-area: suc1;
-    background-color: #5d1a1a;
-    
+    background-color: rgba(255, 99, 71,0.5);
+   
 }
 .suc2{
     grid-area: suc2;
-    background-color: #a45b5b;
+    background-color: rgba(255, 99, 71,0.5);
 }
 .suc3{
     grid-area: suc3;
-    background-color: #694343;
+    background-color: rgba(255, 99, 71,0.5);
 }
+.suc1 img{
+    margin: 10%;
+     width: auto;
+     display: block;
+ 
+ }
+ .suc2 img{
+    margin: 10%;
+     width: auto;
+     display: block;
+ 
+ }
 .suc3 img{
    margin: 10%;
     width: auto;
     display: block;
 
 }
-img.{
+img. {
     margin: auto;
     width: auto;
     display: block;
@@ -173,4 +194,28 @@ textarea{
 #boton:hover {
     cursor: pointer;
     background: #5d1a1a;
+}
+
+@media (max-width: 700px) {
+    nav   {
+        width: auto;
+        float: left;
+        list-style-type: none;
+    }
+  
+    .sucursales {
+        
+        float: center;
+        width: 100%;
+        display: grid;
+       grid-template-areas: 'suc suc suc'
+       'suc1 suc1 suc1'
+       'suc2 suc2 suc2'
+       'suc3 suc3 suc3';
+       
+        grid-column: auto auto auto;
+    }
+    section{ 
+        height: auto;
+    }
 }

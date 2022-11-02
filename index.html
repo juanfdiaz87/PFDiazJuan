@@ -5,6 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href=".\css\estilos.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 	<!-- fila de logo + nav --> 
@@ -12,8 +13,9 @@
 	<header>
 	
 		
-		<a href="./index.html">
-			<img src="assets\logo.png" alt="logo" width=5% align="left" >
+		<a href="./index.html" >
+			<img class="logo" src="assets\logo.png" alt="logo" width="70px" align="left" margin="10%"  data-aos="fade-right" data-aos-easing="linear"
+			data-aos-duration="1000">
 			
 
 		</a>
@@ -45,7 +47,8 @@
 	<section >
 	
 <div class="inicio">
-		<article class="descripcion">
+		<article class="descripcion" data-aos="zoom-in-left" data-aos-easing="linear"
+		data-aos-duration="1000">
 			
 			
 			<h3 >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, mollitia. Facilis, cumque, mollitia quos sit aspernatur ratione suscipit officiis repellendus architecto optio eum officia laborum cum dolore possimus perspiciatis molestias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ipsa inventore, debitis distinctio voluptatem atque tempora corrupti quod optio laborum odit, molestias tenetur, nesciunt dolorum doloremque perferendis ex! Eius, voluptatem. Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Eligendi tenetur aperiam laudantium nobis repellat quibusdam cum debitis, consectetur dolorem fugit magnam veniam non saepe, reiciendis, tempora nihil quia nisi, harum? Lorem ipsum, dolor, sit amet consectetur adipisicing elit. Magnam cum excepturi ut ipsa veniam suscipit nostrum aut nulla voluptas, blanditiis accusamus soluta temporibus laborum atque maiores amet incidunt placeat maxime.</h3>
@@ -60,7 +63,10 @@
 		
 		<h3>instagram</h3>
 	</footer>
-	
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </body>
 
 </html>
+<script>
+	AOS.init();
+  </script>
