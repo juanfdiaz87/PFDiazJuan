@@ -1,10 +1,74 @@
 footer {
     background: black;
     height: 60px;
-    width: 100%;
+    width: 100vh;
     align-items: center;
+    justify-content: center;
     color: white;
     text-align: center;
     text-align-last: auto;
+    display: inline-block;
   }
-  
+  :root{
+    --facebook: #3b5999;
+    --instagram: #e4405f;
+    --email:rgb(10, 10, 10);
+    --whatsapp:rgb(36, 206, 24);
+
+  }
+
+  .piedepagina{
+    display: inline-block;
+   width: 100%;
+    text-align: center;
+    .iconos{
+    display: inline-block;
+    padding: 0 30px;
+    background: rgb(0, 0, 0);
+    color: rgb(152, 146, 146);
+    text-decoration: none;
+   
+    .fa-brands {
+      display: block;
+      padding: 0 10px;
+      line-height: 50px;
+      font-size: 35px;
+      box-shadow: 0 3px 5px 0 px rgba(148, 144, 144, 0.2);
+      transition: .2s;
+
+    }
+    .fa-solid {
+      display: block;
+      padding: 0 10px;
+      line-height: 50px;
+      font-size: 35px;
+      box-shadow: 0 3px 5px 0 px rgba(148, 144, 144, 0.2);
+      transition: .2s;
+
+
+    }
+    }
+    .iconos:hover{
+      
+    }
+    .iconos .fa-brands:hover{
+      transform: translate(-3px) scale(1.05);
+      filter: none;
+    }
+    .iconos .fa-instagram:hover{
+      background: var(--instagram);
+      color: #fff;
+    }
+    .iconos .fa-facebook:hover{
+      background: var(--facebook);
+      color: #fff;
+    }
+    .iconos .fa-envelope:hover{
+      background: var(--email);
+      color: #fff;
+    }
+    .iconos .fa-whatsapp:hover{
+      background: var(--whatsapp);
+      color: #fff;
+    }
+  }

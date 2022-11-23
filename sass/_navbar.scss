@@ -1,7 +1,7 @@
 nav {
     width: auto;
     height: 40px;
-    background: #787373;
+    background: #353437;
     align-items: center;
     text-align: right;
     float: right;
@@ -9,7 +9,8 @@ nav {
     margin: -5px 0;
     padding: 0;
     list-style-type: none;
-   
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     li {
         display: inline-block;
 
@@ -22,15 +23,18 @@ nav {
             box-sizing: border-box;
           }
           a:hover {
-            background: #a45b5b;
+            background: #50697b;
             color: aliceblue;
+            border-radius: 5px;
           }
          
+
     }
 }
  
 .nav__item--active{
-    text-decoration:underline;
+    text-decoration: overline;
+    
 }
   @media (max-width: 470px) {
     nav {
