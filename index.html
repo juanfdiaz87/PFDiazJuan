@@ -1,37 +1,44 @@
-
 <!DOCTYPE html>
 <html lang="es">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href=".\sass\estilos.css" >
-	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-	<meta name="Autor" lang="es" content="Juan F. Diaz">
-	<meta name="keywords" content="Restaurant, Resto, comida, buenos aires, ">
-	 <script src="https://kit.fontawesome.com/e6989277e4.js" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href=".\sass\estilos.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <meta name="Autor" lang="es" content="Juan F. Diaz" />
+    <meta name="keywords" content="Restaurant, Resto, comida, buenos aires, " />
+    <script
+      src="https://kit.fontawesome.com/e6989277e4.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- fila de logo + nav -->
 
-
-</head>
-<body>
-	<!-- fila de logo + nav --> 
-
-	<header>
-	
-		
-		<a href="./index.html" >
-			<img class="logo" src="assets\logo.png" alt="logo" width="70px"  margin="0 " align="left"  data-aos="flip-left" data-aos-easing="linear"
-			data-aos-duration="1000">
-			
-
-		</a>
-		<h3 data-aos="fade-down"
-		data-aos-anchor-placement="top-center" data-aos-duration="1000">La Nostra Web</h3>
-	
-	</header>
-	<div class="clearfix">
-	
-	</div>
-	<nav class="nav">
+    <header>
+      <a href="./index.html">
+        <img
+          class="logo"
+          src="assets\logo.png"
+          alt="logo"
+          width="70px"
+          margin="0 "
+          align="left"
+          data-aos="flip-left"
+          data-aos-easing="linear"
+          data-aos-duration="1000"
+        />
+      </a>
+      <h3
+        data-aos="fade-down"
+        data-aos-anchor-placement="top-center"
+        data-aos-duration="1000"
+      >
+        La Nostra Web
+      </h3>
+    </header>
+    <div class="clearfix"></div>
+    <!--<nav class="nav">
 		<ul class="nav__container">
 			<li><a href="./index.html" class="nav__item nav__item--active">INICIO</a></li>
 			<li><a href="./pages/sucursales.html" class="nav__item">SUCURSALES</a></li>
@@ -40,57 +47,70 @@
 			
 		</ul>
 	</ul>
-	</nav>
+	</nav> -->
 
-	
+    <nav class="nav">
+      <div class="nav__container">
+        <label for="menu" class="nav__label">
+          <img src="assets\menu.png" class="nav__img" />
+        </label>
 
-	<!-- cierre de fila logo + nav -->
-	<!-- fila de información de mi sitio -->
-	
+        <input type="checkbox" id="menu" class="nav__input" checked />
 
-	
+        <div class="nav__menu">
+          <a href="./index.html" class="nav__item nav__item--active">INICIO</a>
+          <a href="./pages/sucursales.html" class="nav__item">SUCURSALES</a>
+          <a href="./pages/menu.html" class="nav__item">MENU</a>
+          <a href="./pages/contacto.html" class="nav__item">CONTACTO</a>
+        </div>
+      </div>
+    </nav>
 
-	<section >
-	
-<div class="inicio">
-		<article class="descripcion" data-aos="zoom-in-left" data-aos-easing="linear"
-		data-aos-duration="750">
-			
-			
-			<h3 >Proponemos una experiencia donde se combinan la cocina de autor y el producto argentino de temporada expresado a través de la tierra, el mar y el fuego combinados con la arquitectura de diseño.
+    <!-- cierre de fila logo + nav -->
+    <!-- fila de información de mi sitio -->
 
-				Un espacio moderno e innovador, situado en el barrio de Palermo, Buenos Aires.
-				
-				Desde la entrada se percibe una amplia y cálida visión, la barra, la cocina a la vista y la imponente cava emergiendo desde el centro de la sala.
-				
-				Empezamos en 2004, siempre sentimos la búsqueda y la investigación como parte de nuestra energía y nos fuimos moviendo en esa sintonía lo cual nos llevo a tener diferentes lugares hasta llegar a la actual. </h3>
-			
-		</article>
-	</div>
-	</section>
+    <section>
+      <div class="inicio">
+        <article
+          class="descripcion"
+          data-aos="zoom-in-left"
+          data-aos-easing="linear"
+          data-aos-duration="750"
+        >
+          <h3>
+            Proponemos una experiencia donde se combinan la cocina de autor y el
+            producto argentino de temporada expresado a través de la tierra, el
+            mar y el fuego combinados con la arquitectura de diseño. Un espacio
+            moderno e innovador, situado en el barrio de Palermo, Buenos Aires.
+            Desde la entrada se percibe una amplia y cálida visión, la barra, la
+            cocina a la vista y la imponente cava emergiendo desde el centro de
+            la sala. Empezamos en 2004, siempre sentimos la búsqueda y la
+            investigación como parte de nuestra energía y nos fuimos moviendo en
+            esa sintonía lo cual nos llevo a tener diferentes lugares hasta
+            llegar a la actual.
+          </h3>
+        </article>
+      </div>
+    </section>
 
-
-	<!-- inicio de footer --> 
-	<footer class="piedepagina">
-		
-		<a class="iconos" href="https://instagram.com/">
-			<i class="fa-brands fa-instagram" alt="Instagram"></i>
-		</a>
-		<a class="iconos" href="https://facebook.com/">
-			<i class="fa-brands fa-facebook" alt="Facebook"></i>
-		</a>
-		<a class="iconos" href="https://outlook.com/">
-			<i class="fa-solid fa-envelope" alt="Email"></i>
-		</a>
-		<a class="iconos" href="https://whatsapp.com/">
-			<i class="fa-brands fa-whatsapp" alt="whatsapp"></i>
-		</a>
-		
-</footer>
-	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-</body>
-
+    <!-- inicio de footer -->
+    <footer class="piedepagina">
+      <a class="iconos" href="https://instagram.com/">
+        <i class="fa-brands fa-instagram" alt="Instagram"></i>
+      </a>
+      <a class="iconos" href="https://facebook.com/">
+        <i class="fa-brands fa-facebook" alt="Facebook"></i>
+      </a>
+      <a class="iconos" href="https://outlook.com/">
+        <i class="fa-solid fa-envelope" alt="Email"></i>
+      </a>
+      <a class="iconos" href="https://whatsapp.com/">
+        <i class="fa-brands fa-whatsapp" alt="whatsapp"></i>
+      </a>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </body>
 </html>
 <script>
-	AOS.init();
-  </script>
+  AOS.init();
+</script>

@@ -1,66 +1,93 @@
-
 <!DOCTYPE html>
 <html lang="es">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="..\sass\estilos.css">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/e6989277e4.js" crossorigin="anonymous"></script>
-</head>
-<body>
-	<!-- fila de logo + nav --> 
-	<header>
-    <div>
-		
-			<a href="../index.html">
-        <img class="logo" src="..\assets\logo.png" alt="logo" width="70px" align="left"  >
-				
-	
-			</a>
-			<h3>La Nostra Web</h3>
-		</div>	
-	</header>
-	<nav class="nav">
-		<ul class="nav__container">
-			<li><a href="../index.html" class="nav__item">INICIO</a></li>
-			<li><a href="sucursales.html" class="nav__item">SUCURSALES</a></li>
-			<li><a href="menu.html" class="nav__item nav__item--active">MENU</a></li>			
-			<li><a href="contacto.html" class="nav__item">CONTACTO</a></li>
-			
-		</ul>
-		</ul>
-	</nav >
-	
-	<!-- cierre de fila logo + nav -->
-	<!-- fila de información de mi sitio -->
-	
-	<section class="secmenu" >
-    
-		<h1 class="textmenu" data-aos="flip-left" data-aos-duration="00">
-			<embed src="..\assets\menu.pdf" type="application/pdf" width="500px" height="800vh">
-    </h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="..\sass\estilos.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/e6989277e4.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- fila de logo + nav -->
+    <header>
+      <div>
+        <a href="../index.html">
+          <img
+            class="logo"
+            src="..\assets\logo.png"
+            alt="logo"
+            width="70px"
+            align="left"
+          />
+        </a>
+        <h3>La Nostra Web</h3>
+      </div>
+    </header>
+    <nav class="nav">
+      <div class="nav__container">
+        <label for="menu" class="nav__label">
+          <img src="..\assets\menu.png" class="nav__img" />
+        </label>
 
-	</section>
-	<!-- inicio de footer --> 
-	<footer class="piedepagina">
-		
-				<a class="iconos" href="https://instagram.com/">
-					<i class="fa-brands fa-instagram" alt="Instagram"></i>
-				</a>
-				<a class="iconos" href="https://facebook.com/">
-					<i class="fa-brands fa-facebook" alt="Facebook"></i>
-				</a>
-				<a class="iconos" href="https://outlook.com/">
-					<i class="fa-solid fa-envelope" alt="Email"></i>
-				</a>
-				<a class="iconos" href="https://whatsapp.com/">
-					<i class="fa-brands fa-whatsapp" alt="whatsapp"></i>
-				</a>
-				
-	</footer>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-</body>
+        <input type="checkbox" id="menu" class="nav__input" checked />
+
+        <div class="nav__menu">
+          <a href="../index.html" class="nav__item">INICIO</a>
+          <a href="sucursales.html" class="nav__item">SUCURSALES</a>
+          <a href="menu.html" class="nav__item nav__item--active">MENU</a>
+          <a href="contacto.html" class="nav__item">CONTACTO</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- cierre de fila logo + nav -->
+    <!-- fila de información de mi sitio -->
+
+    <section class="secmenu">
+      <h1 class="textmenu" data-aos="flip-left" data-aos-duration="00">
+        <embed
+          src="..\assets\menu.pdf"
+          type="application/pdf"
+          width="500px"
+          height="800vh"
+        />
+      </h1>
+    </section>
+    <!-- inicio de footer -->
+    <footer class="piedepagina">
+      <a class="iconos" href="https://instagram.com/">
+        <i class="fa-brands fa-instagram" alt="Instagram"></i>
+      </a>
+      <a class="iconos" href="https://facebook.com/">
+        <i class="fa-brands fa-facebook" alt="Facebook"></i>
+      </a>
+      <a class="iconos" href="https://outlook.com/">
+        <i class="fa-solid fa-envelope" alt="Email"></i>
+      </a>
+      <a class="iconos" href="https://whatsapp.com/">
+        <i class="fa-brands fa-whatsapp" alt="whatsapp"></i>
+      </a>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
 <script>
   AOS.init();

@@ -1,77 +1,111 @@
-
 <!DOCTYPE html>
 <html lang="es">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="..\sass\estilos.css">
-	 <script src="https://kit.fontawesome.com/e6989277e4.js" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="..\sass\estilos.css" />
+    <script
+      src="https://kit.fontawesome.com/e6989277e4.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- fila de logo + nav -->
+    <header>
+      <div>
+        <a href="../index.html">
+          <img
+            class="logo"
+            src="..\assets\logo.png"
+            alt="logo"
+            width="70px"
+            align="left"
+          />
+        </a>
+        <h3>La Nostra Web</h3>
+      </div>
+    </header>
 
-</head>
-<body>
-	<!-- fila de logo + nav --> 
-	<header>
-		<div>
-		
-			<a href="../index.html">
-				<img class="logo" src="..\assets\logo.png" alt="logo" width="70px" align="left"  >
-				
-	
-			</a>
-			<h3>La Nostra Web</h3>
-		</div>	
-	</header>
-	<nav class="nav">
-		<ul class="nav__container">
-			<li><a href="../index.html" class="nav__item">INICIO</a></li>
-			<li><a href="sucursales.html" class="nav__item nav__item--active">SUCURSALES</a></li>
-			<li><a href="menu.html" class="nav__item">MENU</a></li>			
-			<li><a href="contacto.html" class="nav__item">CONTACTO</a></li>
-			
-		</ul>
-		</ul>
-	</nav>
-	<!-- cierre de fila logo + nav -->
-	<!-- fila de información de mi sitio -->
-	<section >
-	<div class="sucursales">
-     
-			       
-				   
-			       <h2 class="caja suc1">Sucursal 1
-            <img src="..\assets\resto.jpg" alt="Libertador">
-			
-				texto texto texto 1
-			</h2>
-			<h2 class="caja suc2">Sucursal 2
-            <img src="..\assets\resto2.jpg" alt="Cabildo">
-		
-				texto texto texto 2
-			</h2>	
-			<h2 class="caja suc3">Sucursal 3
-            <img src="..\assets\resto3.jpg" alt="Corrientes">
-			
-		    texto texto texto 3
-		</h2>
-	</div>
-	</section>
+    <nav class="nav">
+      <div class="nav__container">
+        <label for="menu" class="nav__label">
+          <img src="..\assets\menu.png" class="nav__img" />
+        </label>
 
-	<!-- inicio de footer --> 
-	<footer class="piedepagina">
-		
-		<a class="iconos" href="https://instagram.com/">
-			<i class="fa-brands fa-instagram" alt="Instagram"></i>
-		</a>
-		<a class="iconos" href="https://facebook.com/">
-			<i class="fa-brands fa-facebook" alt="Facebook"></i>
-		</a>
-		<a class="iconos" href="https://outlook.com/">
-			<i class="fa-solid fa-envelope" alt="Email"></i>
-		</a>
-		<a class="iconos" href="https://whatsapp.com/">
-			<i class="fa-brands fa-whatsapp" alt="whatsapp"></i>
-		</a>
-		
-</footer>
-</body>
+        <input type="checkbox" id="menu" class="nav__input" checked />
+
+        <div class="nav__menu">
+          <a href="../index.html" class="nav__item">INICIO</a>
+          <a href="sucursales.html" class="nav__item nav__item--active"
+            >SUCURSALES</a
+          >
+          <a href="menu.html" class="nav__item">MENU</a>
+          <a href="contacto.html" class="nav__item">CONTACTO</a>
+        </div>
+      </div>
+    </nav>
+    <!-- cierre de fila logo + nav -->
+    <!-- fila de información de mi sitio -->
+    <section class="sucursalesmain">
+      <div class="sucursales">
+        <div class="caja suc1">
+          <h2>Sucursal Nuñez</h2>
+          <img src="..\assets\resto.jpg" alt="Libertador" />
+
+          <h2>
+            <a
+              href="https://goo.gl/maps/LZrkv1XYS56vBnct9"
+              target="_blank"
+              class="lsuc1"
+              >Av. Libertador 7698</a
+            >
+          </h2>
+        </div>
+
+        <div class="caja suc2">
+          <h2>Sucursal Colegiales</h2>
+          <img src="..\assets\resto2.jpg" alt="Cabildo" />
+
+          <h2>
+            <a
+              href="https://goo.gl/maps/5oKgWJo1nt462gay7"
+              target="_blank"
+              class="lsuc2"
+              >Av. Federico Lacroze 2985</a
+            >
+          </h2>
+        </div>
+
+        <div class="caja suc3">
+          <h2>Sucursal Belgrano</h2>
+          <img src="..\assets\resto3.jpg" alt="Lacrose" />
+
+          <h2>
+            <a
+              href="https://goo.gl/maps/yww6PKCHP9fyN7858"
+              target="_blank"
+              class="lsuc3"
+              >Av. Cabildo 2010</a
+            >
+          </h2>
+        </div>
+      </div>
+    </section>
+
+    <!-- inicio de footer -->
+    <footer class="piedepagina">
+      <a class="iconos" href="https://instagram.com/">
+        <i class="fa-brands fa-instagram" alt="Instagram"></i>
+      </a>
+      <a class="iconos" href="https://facebook.com/">
+        <i class="fa-brands fa-facebook" alt="Facebook"></i>
+      </a>
+      <a class="iconos" href="https://outlook.com/">
+        <i class="fa-solid fa-envelope" alt="Email"></i>
+      </a>
+      <a class="iconos" href="https://whatsapp.com/">
+        <i class="fa-brands fa-whatsapp" alt="whatsapp"></i>
+      </a>
+    </footer>
+  </body>
 </html>
